@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ゆるり整体院 | からだを、ゆるめる時間(制作サンプル)</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F7FAFB;--ink:#2F3A40;--sub:#6F7E86;--blue:#6E9CB4;--pale:#E7F0F4;--green:#7DAA8C}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:"Noto Sans JP","Noto Sans CJK JP",sans-serif;line-height:1.9;letter-spacing:.03em}
+a{color:inherit;text-decoration:none}
+.serif{font-family:"Noto Serif JP","Noto Serif CJK JP",serif;font-weight:500}
+header{display:flex;align-items:center;justify-content:space-between;padding:18px 56px;background:#fff;box-shadow:0 1px 0 #E3EBEE}
+.logo{font-size:22px}
+.logo small{display:block;font-size:11px;color:var(--sub);font-family:"Noto Sans JP","Noto Sans CJK JP",sans-serif;letter-spacing:.08em}
+nav{display:flex;gap:30px;font-size:14px;align-items:center}
+.btns{display:flex;gap:10px}
+.btn{padding:11px 22px;border-radius:8px;font-size:14px;font-weight:500;color:#fff;background:var(--blue)}
+.btn.line{background:var(--green)}
+.hero{position:relative;height:600px;background:url(images/hero.jpg) center/cover}
+.hero:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(247,250,251,.95) 0%,rgba(247,250,251,.75) 38%,rgba(247,250,251,0) 62%)}
+.hero .copy{position:relative;padding:150px 0 0 96px}
+.hero h1{font-size:44px;line-height:1.55}
+.hero p{margin:18px 0 30px;color:var(--sub);font-size:16px}
+.badges{display:flex;gap:12px}
+.badges span{background:#fff;border:1px solid #D5E3EA;border-radius:999px;padding:6px 16px;font-size:13px}
+section{padding:100px 56px;max-width:1180px;margin:0 auto}
+h2{font-size:30px;text-align:center;margin-bottom:12px}
+.lead{text-align:center;color:var(--sub);margin-bottom:48px}
+.worries{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.worries div{background:#fff;border-radius:14px;padding:30px 20px;text-align:center;font-weight:500;box-shadow:0 6px 20px rgba(47,58,64,.05)}
+.worries i{display:block;width:56px;height:56px;margin:0 auto 14px;border-radius:50%;background:var(--pale);font-style:normal;line-height:56px;color:var(--blue);font-size:22px}
+.flow{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;counter-reset:s}
+.flow div{background:var(--pale);border-radius:14px;padding:26px 22px;font-size:14px}
+.flow b{display:block;color:var(--blue);font-size:13px;letter-spacing:.1em;margin-bottom:6px}
+.flow h3{font-size:17px;margin-bottom:6px}
+.staff{display:grid;grid-template-columns:1fr 1.2fr;gap:56px;align-items:center}
+.staff .ph{height:360px;border-radius:14px;background:url(images/sub1.jpg) center/cover}
+.staff p{color:var(--sub)}
+.price{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.price div{background:#fff;border-radius:14px;padding:28px 32px;display:flex;justify-content:space-between;align-items:center;box-shadow:0 6px 20px rgba(47,58,64,.05)}
+.price strong{font-size:22px;color:var(--blue)}
+.cta{max-width:none;background:var(--blue);color:#fff;text-align:center}
+.cta h2{color:#fff}.cta p{margin-bottom:28px;opacity:.9}
+.cta .btn{background:#fff;color:var(--blue);padding:15px 34px;font-size:16px;margin:0 6px}
+.cta .btn.line{background:var(--green);color:#fff}
+footer{padding:40px 56px;display:flex;justify-content:space-between;font-size:12px;color:var(--sub)}
+@media (max-width:760px){
+ header{padding:14px 18px}.logo{font-size:18px}nav{display:none}.btns .btn{padding:8px 12px;font-size:12px}.btns .btn.line{display:none}
+ .hero{height:560px;background-position:70% center}.hero:before{background:linear-gradient(180deg,rgba(247,250,251,.96) 0%,rgba(247,250,251,.85) 45%,rgba(247,250,251,0) 75%)}
+ .hero .copy{padding:48px 22px 0}.hero h1{font-size:28px}.hero p{font-size:14px}.badges{flex-wrap:wrap;gap:8px}
+ section{padding:64px 18px}h2{font-size:22px}.lead{margin-bottom:28px;font-size:14px}
+ .worries,.flow{grid-template-columns:1fr 1fr;gap:12px}.worries div{padding:20px 10px;font-size:14px}
+ .staff,.price{grid-template-columns:1fr;gap:20px}.staff .ph{height:220px}
+ .cta .btn{display:block;margin:10px 0}
+ footer{flex-direction:column;gap:8px;padding:28px 18px}
+}
+</style>
+</head>
+<body>
+<header>
+ <div class="logo serif">ゆるり整体院<small>完全予約制・女性スタッフ在籍</small></div>
+ <nav><a>はじめての方へ</a><a>料金</a><a>アクセス</a>
+  <span class="btns"><a class="btn">電話で予約</a><a class="btn line">LINEで予約</a></span></nav>
+ <span class="btns" style="display:none"></span>
+</header>
+<div class="hero">
+ <div class="copy">
+  <h1 class="serif">からだを、<br>ゆるめる時間。</h1>
+  <p>肩こり・腰の重さ・産後の骨盤ケアに。<br>ボキボキしない、やさしい整体です。</p>
+  <div class="badges"><span>駅から徒歩3分</span><span>キッズスペースあり</span><span>夜20時まで</span></div>
+ </div>
+</div>
+<section>
+ <h2 class="serif">こんなお悩みはありませんか?</h2>
+ <p class="lead">ひとつでも当てはまったら、お気軽にご相談ください。</p>
+ <div class="worries">
+  <div><i>肩</i>デスクワークで<br>肩がつらい</div>
+  <div><i>腰</i>朝起きると<br>腰が重い</div>
+  <div><i>眠</i>疲れが<br>抜けにくい</div>
+  <div><i>産</i>産後の<br>骨盤が気になる</div>
+ </div>
+</section>
+<section>
+ <h2 class="serif">はじめての方へ</h2>
+ <p class="lead">施術の流れ</p>
+ <div class="flow">
+  <div><b>STEP 1</b><h3>カウンセリング</h3>お悩みや生活習慣をお伺いします。</div>
+  <div><b>STEP 2</b><h3>からだのチェック</h3>姿勢と動きを一緒に確認します。</div>
+  <div><b>STEP 3</b><h3>施術</h3>やさしい力で、ゆっくりほぐします。</div>
+  <div><b>STEP 4</b><h3>セルフケアのご提案</h3>おうちでできるケアをお伝えします。</div>
+ </div>
+</section>
+<section class="staff">
+ <div class="ph"></div>
+ <div>
+  <h2 class="serif" style="text-align:left">院内のご案内</h2>
+  <p>明るく清潔な個室で施術します。着替えのご用意もありますので、お仕事帰りにそのままお越しいただけます。お子さま連れの方も歓迎です。</p>
+ </div>
+</section>
+<section>
+ <h2 class="serif">料金</h2>
+ <p class="lead">初回はカウンセリング料込みの料金です。</p>
+ <div class="price">
+  <div><span>初回 整体コース(60分)</span><strong>¥4,980</strong></div>
+  <div><span>2回目以降(45分)</span><strong>¥5,500</strong></div>
+  <div><span>産後骨盤ケア(45分)</span><strong>¥6,050</strong></div>
+  <div><span>回数券(5回)</span><strong>¥25,000</strong></div>
+ </div>
+</section>
+<section class="cta">
+ <h2 class="serif">ご予約・お問い合わせ</h2>
+ <p>当日のご予約もお気軽にどうぞ。受付 10:00〜20:00</p>
+ <a class="btn">電話で予約する</a><a class="btn line">LINEで予約する</a>
+</section>
+<footer>
+ <div>© ゆるり整体院</div>
+ <div>※このサイトは hibi web design の制作サンプルです(架空の店舗です)</div>
+</footer>
+</body>
+</html>
