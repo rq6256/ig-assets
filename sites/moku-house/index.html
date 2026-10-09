@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MOKU HOUSE | 木と暮らす、平屋の家(制作サンプル)</title>
+<meta name="robots" content="noindex">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;600&family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#161616;--paper:#F2EFEA;--wood:#B07D4F;--gray:#8B8780}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--paper);color:var(--ink);font-family:"Noto Sans JP","Noto Sans CJK JP",sans-serif;line-height:1.8}
+a{color:inherit;text-decoration:none}
+.en{font-family:"Oswald","Noto Sans CJK JP",sans-serif;letter-spacing:.08em;text-transform:uppercase}
+header{position:absolute;z-index:5;left:0;right:0;top:0;display:flex;align-items:center;justify-content:space-between;padding:28px 56px;color:#fff}
+.logo{font-size:30px;font-weight:600;letter-spacing:.18em}
+nav{display:flex;gap:40px;font-size:14px;align-items:center}
+.contact{background:var(--wood);color:#fff;padding:12px 26px;font-weight:700;letter-spacing:.1em}
+.hero{position:relative;height:760px;background:url(images/hero.jpg) center/cover;color:#fff}
+.hero:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(10,10,10,.72),rgba(10,10,10,.15) 60%)}
+.hero .copy{position:absolute;left:56px;bottom:96px}
+.hero .big{font-size:120px;line-height:.95;font-weight:600}
+.hero h1{font-size:34px;font-weight:900;margin-top:28px;letter-spacing:.06em}
+.hero p{margin-top:10px;opacity:.85}
+.nums{display:grid;grid-template-columns:repeat(3,1fr);background:var(--ink);color:#fff}
+.nums div{padding:40px 56px;border-right:1px solid #333}
+.nums b{display:block;font-size:56px;line-height:1;color:var(--wood)}
+.nums span{font-size:14px;color:#bbb}
+section{padding:120px 56px}
+.head{display:flex;align-items:baseline;gap:22px;margin-bottom:48px}
+.head .en{font-size:64px;font-weight:600;line-height:1}
+.head span{font-weight:700;color:var(--gray)}
+.works{display:grid;grid-template-columns:2fr 1fr 1fr;grid-template-rows:280px 280px;gap:12px}
+.works div{background-size:cover;background-position:center;position:relative}
+.works div:first-child{grid-row:1/3}
+.works i{position:absolute;left:0;bottom:0;background:var(--ink);color:#fff;font-style:normal;font-size:13px;padding:8px 16px;font-weight:700}
+.feature{display:grid;grid-template-columns:repeat(3,1fr);gap:40px}
+.feature div{border-top:4px solid var(--ink);padding-top:24px}
+.feature .en{font-size:20px;color:var(--wood)}
+.feature h3{font-size:22px;font-weight:900;margin:6px 0 10px}
+.feature p{color:#555;font-size:15px}
+.cta{background:var(--wood);color:#fff;display:flex;justify-content:space-between;align-items:center}
+.cta .en{font-size:72px;font-weight:600;line-height:1}
+.cta p{font-size:18px;font-weight:700;margin-top:10px}
+.cta a{background:var(--ink);padding:24px 48px;font-weight:900;font-size:18px;letter-spacing:.1em}
+footer{background:var(--ink);color:#999;padding:36px 56px;display:flex;justify-content:space-between;font-size:12px}
+@media (max-width:760px){
+ header{padding:18px 20px}.logo{font-size:20px}nav a:not(.contact){display:none}.contact{padding:8px 14px;font-size:12px}
+ .hero{height:620px}.hero .copy{left:20px;bottom:56px;right:20px}.hero .big{font-size:58px}.hero h1{font-size:22px}
+ .nums{grid-template-columns:1fr 1fr 1fr}.nums div{padding:22px 14px}.nums b{font-size:30px}.nums span{font-size:11px}
+ section{padding:72px 20px}.head .en{font-size:40px}.head{flex-direction:column;gap:4px;margin-bottom:28px}
+ .works{grid-template-columns:1fr 1fr;grid-template-rows:220px 140px 140px}.works div:first-child{grid-row:auto;grid-column:1/3}
+ .feature{grid-template-columns:1fr;gap:28px}
+ .cta{flex-direction:column;align-items:flex-start;gap:24px}.cta .en{font-size:44px}.cta a{padding:18px 28px;font-size:15px}
+ footer{flex-direction:column;gap:6px;padding:28px 20px}
+}
+</style>
+</head>
+<body>
+<header>
+ <div class="logo en">MOKU HOUSE</div>
+ <nav><a class="en">Works</a><a class="en">Concept</a><a class="en">Company</a><a class="contact">資料請求・見学会</a></nav>
+</header>
+<div class="hero">
+ <div class="copy">
+  <div class="big en">Live with<br>wood.</div>
+  <h1>木と暮らす、平屋の家。</h1>
+  <p>地元の木で建てる、自然素材の注文住宅</p>
+ </div>
+</div>
+<div class="nums">
+ <div><b class="en">320</b><span>施工実績(棟)</span></div>
+ <div><b class="en">35</b><span>創業(年)</span></div>
+ <div><b class="en">60</b><span>年間 定期点検(年)</span></div>
+</div>
+<section>
+ <div class="head"><div class="en">Works</div><span>施工事例</span></div>
+ <div class="works">
+  <div style="background-image:url(images/sub1.jpg)"><i>リビング|〇〇市 T様邸</i></div>
+  <div style="background-image:url(images/sub2.jpg)"><i>キッチン</i></div>
+  <div style="background-image:url(images/sub3.jpg)"><i>大工の手仕事</i></div>
+  <div style="background-image:url(images/sub4.jpg)" ><i>無垢材の床</i></div>
+  <div style="background-image:url(images/hero.jpg)"><i>外観</i></div>
+ </div>
+</section>
+<section style="padding-top:0">
+ <div class="head"><div class="en">Concept</div><span>家づくりの考え方</span></div>
+ <div class="feature">
+  <div><div class="en">01 / Material</div><h3>地元の木を使う</h3><p>近くの山で育った杉とヒノキで建てるから、気候に合い、長く強い家になります。</p></div>
+  <div><div class="en">02 / Craft</div><h3>自社の大工が建てる</h3><p>設計から施工まで一貫して担当。現場の細かな納まりまで責任を持ちます。</p></div>
+  <div><div class="en">03 / Support</div><h3>建てたあとも、ずっと</h3><p>定期点検とメンテナンスで、暮らしの変化に合わせて手を入れ続けます。</p></div>
+ </div>
+</section>
+<section class="cta">
+ <div><div class="en">Open House</div><p>毎月第2・第4土日 完成見学会を開催しています</p></div>
+ <a>見学会を予約する</a>
+</section>
+<footer><div class="en">© MOKU HOUSE</div><div>※このサイトは hibi web design の制作サンプルです(架空の会社です)</div></footer>
+</body>
+</html>
