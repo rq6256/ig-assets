@@ -1,4 +1,4 @@
-# hibi web design 自動投稿 手順書(月・木 8:00ごろ)
+# hibi web design 自動投稿 手順書(月・木 19:00ごろ)
 
 Instagram: @hibi.webdesign(Windsor.ai の instagram コネクタ、account id 17841417680116021)
 画像置き場: GitHub rq6256/ig-assets → GitHub Pages https://rq6256.github.io/ig-assets/
