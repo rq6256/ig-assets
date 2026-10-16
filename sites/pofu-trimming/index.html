@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>トリミングサロン ぽふぽふ(制作サンプル)</title>
+<meta name="robots" content="noindex">
+<link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@500&family=Zen+Maru+Gothic:wght@500;700;900&family=Baloo+2:wght@700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F4FBF8;--mint:#9ED8C5;--mintd:#5DB39A;--peach:#FFB9A0;--sun:#FFE08A;--ink:#3E4A57;--white:#fff}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:"Zen Maru Gothic","Noto Sans CJK JP",sans-serif;font-weight:500;line-height:1.85}
+a{color:inherit;text-decoration:none}
+.kw{font-family:"Kiwi Maru","Zen Maru Gothic",serif}
+.en{font-family:"Baloo 2",sans-serif;font-weight:800}
+header{display:flex;justify-content:space-between;align-items:center;padding:20px 52px}
+.logo{display:flex;align-items:center;gap:10px;font-size:22px;font-weight:900}
+.paw{position:relative;width:40px;height:40px;display:inline-block}
+.paw:before{content:"";position:absolute;left:10px;top:15px;width:20px;height:18px;border-radius:50% 50% 45% 45%;background:var(--peach)}
+.paw:after{content:"";position:absolute;left:4px;top:3px;width:8px;height:10px;border-radius:50%;background:var(--peach);box-shadow:10px -3px 0 var(--peach),20px -3px 0 var(--peach),28px 4px 0 var(--peach)}
+nav{display:flex;gap:28px;align-items:center;font-weight:700;font-size:15px}
+.btn{white-space:nowrap;background:var(--mintd);color:#fff;padding:11px 26px;border-radius:999px;box-shadow:0 5px 0 #3f8f78}
+.hero{position:relative;margin:0 40px;background:var(--mint);border-radius:60px;overflow:hidden;display:grid;grid-template-columns:1fr 1.1fr;align-items:center;min-height:560px}
+.hero .copy{padding:60px 0 60px 64px;position:relative;z-index:2}
+.hero .en{font-size:30px;color:#fff;letter-spacing:.04em}
+.hero h1{font-size:52px;font-weight:900;line-height:1.4;color:var(--ink);margin:4px 0 18px}
+.hero h1 em{font-style:normal;color:var(--mintd);background:#fff;padding:0 12px;border-radius:14px}
+.hero p{font-size:17px}
+.blob{height:500px;margin:30px 30px 30px 0;background:url(images/hero.jpg) center/cover;border-radius:58% 42% 47% 53% / 46% 55% 45% 54%;border:10px solid #fff}
+.bub{position:absolute;border-radius:50%}
+.price-tag{position:absolute;left:44%;bottom:44px;background:var(--sun);border-radius:999px;padding:12px 24px;font-weight:900;font-size:16px;transform:rotate(-6deg);box-shadow:0 4px 0 #e2bf5d;z-index:3}
+section{padding:96px 52px;max-width:1180px;margin:0 auto}
+.ttl{text-align:center;margin-bottom:44px}
+.ttl .en{display:block;font-size:26px;color:var(--peach);line-height:1}
+.ttl h2{font-size:32px;font-weight:900}
+.points{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.points div{background:#fff;border-radius:36px;padding:34px 30px;text-align:center;border:3px solid var(--mint)}
+.points .ph{width:150px;height:150px;border-radius:50%;margin:0 auto 18px;background-size:cover;background-position:center;border:6px solid var(--sun)}
+.points h3{font-size:20px;font-weight:900}
+.points p{font-size:14px;color:#66727e}
+.course{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.course div{background:#fff;border-radius:28px;padding:28px;box-shadow:0 8px 0 #dcefe8}
+.course h3{font-size:18px;font-weight:900}
+.course b{display:block;font-family:"Baloo 2";font-size:34px;color:var(--mintd)}
+.course small{color:#7a8590}
+.cta{max-width:none;background:var(--peach);color:#fff;text-align:center;border-radius:60px;margin:0 40px 70px}
+.cta h2{font-size:32px;font-weight:900}
+.cta .btn{display:inline-block;margin-top:22px;background:#fff;color:var(--mintd);font-size:19px;padding:18px 50px;box-shadow:0 6px 0 #e99b80}
+footer{text-align:center;padding:10px 20px 40px;font-size:12px;color:#8a97a3}
+@media (max-width:760px){
+ header{padding:14px 18px}.logo{font-size:14px;white-space:nowrap}.paw{transform:scale(.8)}nav a:not(.btn){display:none}.btn{padding:8px 16px;font-size:13px}
+ .hero{grid-template-columns:1fr;margin:4px 14px 0;border-radius:36px}.blob{height:280px;margin:18px 18px 0;order:-1;border-width:6px}.hero .copy{padding:22px 22px 84px}.hero h1{font-size:26px}.hero h1 em{padding:0 8px}.hero p{font-size:13px}.hero .en{font-size:24px}
+ .price-tag{left:auto;right:18px;bottom:20px;font-size:13px}
+ section{padding:60px 18px}.ttl h2{font-size:24px}.points,.course{grid-template-columns:1fr;gap:16px}.points .ph{width:120px;height:120px}
+ .cta{margin:0 14px 50px;border-radius:36px}.cta h2{font-size:23px}.cta .btn{font-size:16px;padding:15px 30px}
+}
+</style>
+</head>
+<body>
+<header>
+ <div class="logo"><span class="paw"></span>トリミングサロン ぽふぽふ</div>
+ <nav><a>はじめての方へ</a><a>料金</a><a>アクセス</a><a class="btn">ネット予約</a></nav>
+</header>
+<div class="hero">
+ <div class="copy">
+  <div class="en">Fluffy &amp; Happy!</div>
+  <h1>おうちの子が、<br><em>もっと</em>かわいくなる。</h1>
+  <p class="kw">こわがりさんも、シニアさんも。<br>ひとりずつ、ゆっくり丁寧にトリミングします。</p>
+ </div>
+ <div class="blob"></div>
+ <div class="price-tag">小型犬シャンプー ¥4,400〜</div>
+</div>
+<section>
+ <div class="ttl"><span class="en">Point</span><h2>ぽふぽふの3つのやくそく</h2></div>
+ <div class="points">
+  <div><div class="ph" style="background-image:url(images/sub1.jpg)"></div><h3>1頭ずつ完全予約制</h3><p>ほかの子と会わないので、待ち時間のストレスがありません。</p></div>
+  <div><div class="ph" style="background-image:url(images/sub2.jpg)"></div><h3>やさしい低刺激シャンプー</h3><p>お肌が弱い子にも使える、自然由来のシャンプーです。</p></div>
+  <div><div class="ph" style="background-image:url(images/sub3.jpg)"></div><h3>ガラス張りで見学OK</h3><p>施術中の様子をいつでも見られるので安心です。</p></div>
+ </div>
+</section>
+<section style="padding-top:0">
+ <div class="ttl"><span class="en">Price</span><h2>料金のめやす</h2></div>
+ <div class="course">
+  <div><h3>シャンプーコース</h3><b>¥4,400〜</b><small>シャンプー・爪切り・耳そうじ</small></div>
+  <div><h3>カットコース</h3><b>¥6,600〜</b><small>シャンプー＋全身カット</small></div>
+  <div><h3>パピーデビュー</h3><b>¥3,300</b><small>はじめてのトリミングに</small></div>
+ </div>
+</section>
+<section class="cta">
+ <h2>はじめての方も、お気軽にどうぞ</h2>
+ <p>ご予約はネットから24時間受付中です</p>
+ <a class="btn">ネットで予約する</a>
+</section>
+<footer>© トリミングサロン ぽふぽふ ※このサイトは hibi web design の制作サンプルです(架空のお店です)</footer>
+</body>
+</html>
