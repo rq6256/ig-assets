@@ -1,4 +1,4 @@
-# IG営業テスト 作業記録・引き継ぎ (2026-10-09 23時 更新12 / hibi web design 切り替え完了・自動投稿開始・猫アイコン)
+# IG営業テスト 作業記録・引き継ぎ (2026-10-09 23時 更新13 (2026-10-16) / WORKS 07〜09追加)
 
 ## 0. 【最新】ホームページ制作アカウント(@hibi.webdesign)の現状
 - 経営者広告塾は終了。@keieisha_ad_juku → **@hibi.webdesign(ひびウェブデザイン)** に切り替え完了(Windsor上のアカウントID 17841417680116021 は同じ)
@@ -22,9 +22,13 @@
 | 04 | 工務店 MOKU HOUSE | sites/moku-house/ | 17910819396514458 |
 | 05 | 焼肉店 炭火焼肉 燈 | sites/sumibi-akari/ | 18128729857825158 |
 | 06 | こども英会話 Sprout English | sites/sprout-english/ | 17983137651089309 |
-- グリッドの並び(新しい順): 06・05・04・01・02・03。01〜03を固定すると上段01〜03、下段06・05・04
-- サイトのURL: https://rq6256.github.io/ig-assets/sites/<名前>/ 、リンク集ページ https://rq6256.github.io/ig-assets/hibi/ (6作品)
-- モックアップ画像 images/hibi-pin-1〜6.jpg(autopost/render_mockup.py で作成)
+| 07 | パン屋 こむぎとミルク | sites/komugi-milk/ | 17947531470339467 |
+| 08 | ネイルサロン nail room mimi | sites/nail-mimi/ | 18502187770103576 |
+| 09 | トリミングサロン ぽふぽふ | sites/pofu-trimming/ | 18101768777567011 |
+- 2026-10-16 可愛い系3作品(07〜09)を追加投稿(ユーザー希望「英会話塾のような可愛いデザイン」)
+- 自動投稿ルール追加(10/13以降): 男性と感じられる投稿は禁止、ready-p1(男性イラスト入り)はオーナーが削除済みでキューから除外
+- サイトのURL: https://rq6256.github.io/ig-assets/sites/<名前>/ 、リンク集ページ https://rq6256.github.io/ig-assets/hibi/ (9作品)
+- モックアップ画像 images/hibi-pin-1〜9.jpg(autopost/render_mockup.py で作成)
 
 ### ハイライト
 - 表紙 images/highlight/hl-works/price/flow/qa/voice.jpg、中身 st-works-1〜6 / st-price-1 / st-flow-1 / st-qa-1.jpg
