@@ -24,10 +24,10 @@
 | 06 | こども英会話 Sprout English | sites/sprout-english/ | 17983137651089309 |
 | 07 | パン屋 こむぎとミルク | sites/komugi-milk/ | 17947531470339467 |
 | 08 | ネイルサロン nail room mimi | sites/nail-mimi/ | 18502187770103576 |
-| 09 | トリミングサロン ぽふぽふ | sites/pofu-trimming/ | 18101768777567011 |
-- 2026-10-16 可愛い系3作品(07〜09)を追加投稿(ユーザー希望「英会話塾のような可愛いデザイン」)
+| (09) | トリミングサロン ぽふぽふ | sites/pofu-trimming/ | 投稿後に削除(パン屋と配置が同じため・ユーザー判断)。リンク集からも外した |
+- 2026-10-16 可愛い系3作品(07〜09)を追加投稿 → 09は配置がパン屋と同じため削除。**新しい作品は既存と配置(レイアウト)がかぶらないようにする**(ユーザー方針:いろんなサイトを作れることを示したい)(ユーザー希望「英会話塾のような可愛いデザイン」)
 - 自動投稿ルール追加(10/13以降): 男性と感じられる投稿は禁止、ready-p1(男性イラスト入り)はオーナーが削除済みでキューから除外
-- サイトのURL: https://rq6256.github.io/ig-assets/sites/<名前>/ 、リンク集ページ https://rq6256.github.io/ig-assets/hibi/ (9作品)
+- サイトのURL: https://rq6256.github.io/ig-assets/sites/<名前>/ 、リンク集ページ https://rq6256.github.io/ig-assets/hibi/ (8作品)
 - モックアップ画像 images/hibi-pin-1〜9.jpg(autopost/render_mockup.py で作成)
 
 ### ハイライト
