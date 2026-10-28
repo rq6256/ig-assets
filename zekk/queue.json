@@ -1,0 +1,49 @@
+{
+  "account": "17841410400185867",
+  "queue": [
+    {
+      "id": "P09",
+      "date": "2026-10-29",
+      "time": "12:10",
+      "image_urls": [
+        "https://rq6256.github.io/ig-assets/zekk/posts/P09/slide_01.jpg",
+        "https://rq6256.github.io/ig-assets/zekk/posts/P09/slide_02.jpg",
+        "https://rq6256.github.io/ig-assets/zekk/posts/P09/slide_03.jpg",
+        "https://rq6256.github.io/ig-assets/zekk/posts/P09/slide_04.jpg",
+        "https://rq6256.github.io/ig-assets/zekk/posts/P09/slide_05.jpg",
+        "https://rq6256.github.io/ig-assets/zekk/posts/P09/slide_06.jpg"
+      ],
+      "caption": "はじめまして、合同会社Zekkの吉川です。\n大阪・寝屋川で、会社やお店のホームページを作っています。\n\nこの3か月、WordPressには重大な問題が立て続けに見つかっています。\n作ったあと誰も更新を見ていないサイトが一番危ない。そう感じて、無料のサイト点検を始めました。\n\n点検の結果、今のままで大丈夫なら、正直にそうお伝えします。\n必要な場合だけ、「WordPressのまま守る」か「新しい仕組み（EmDash）に替える」かを、サイトに合わせてご提案します。\n\nこのアカウントでは、ホームページを安全に保つために知っておきたいことを、なるべく分かりやすくお届けします。\nどうぞよろしくお願いします。\n\n#WordPress #ホームページ制作 #セキュリティ対策 #中小企業 #大阪 #寝屋川 #自己紹介"
+    },
+    {
+      "id": "P02",
+      "date": "2026-10-30",
+      "time": "12:10",
+      "image_urls": [
+        "https://rq6256.github.io/ig-assets/zekk/posts/P02/slide_01.jpg",
+        "https://rq6256.github.io/ig-assets/zekk/posts/P02/slide_02.jpg",
+        "https://rq6256.github.io/ig-assets/zekk/posts/P02/slide_03.jpg",
+        "https://rq6256.github.io/ig-assets/zekk/posts/P02/slide_04.jpg",
+        "https://rq6256.github.io/ig-assets/zekk/posts/P02/slide_05.jpg",
+        "https://rq6256.github.io/ig-assets/zekk/posts/P02/slide_06.jpg",
+        "https://rq6256.github.io/ig-assets/zekk/posts/P02/slide_07.jpg"
+      ],
+      "caption": "あなたのサイトのPHP、何番か知っていますか？\n10月21日に見つかったPHPの重大な欠陥は、PHPの番号を見れば対応済みかどうかが分かります。\n\n確かめ方は3つです。\n① 契約しているサーバーの管理画面の「PHP」の項目\n② WordPressの「ツール」→「サイトヘルス」→「情報」→「サーバー」\n③ 制作会社かサーバー会社に聞く\n\n8.2.35／8.3.36／8.4.27／8.5.12以上なら修正済みです。8.1以前には公式の修正がないため、新しい版への切り替えを相談しましょう。切り替える前のバックアップも忘れずに。\n\nサーバーによっては番号の付け方が違う場合もあるので、サーバー会社のお知らせもあわせて確認してください。\n\n分からないときは、プロフィールのリンクから無料点検もどうぞ（URLとサーバー会社名だけでOK）。\n\n#WordPress #ホームページ #セキュリティ対策 #PHP #レンタルサーバー #中小企業 #ホームページ管理"
+    },
+    {
+      "id": "P01",
+      "date": "2026-10-31",
+      "time": "12:10",
+      "image_urls": [
+        "https://rq6256.github.io/ig-assets/zekk/posts/P01/slide_01.jpg",
+        "https://rq6256.github.io/ig-assets/zekk/posts/P01/slide_02.jpg",
+        "https://rq6256.github.io/ig-assets/zekk/posts/P01/slide_03.jpg",
+        "https://rq6256.github.io/ig-assets/zekk/posts/P01/slide_04.jpg",
+        "https://rq6256.github.io/ig-assets/zekk/posts/P01/slide_05.jpg",
+        "https://rq6256.github.io/ig-assets/zekk/posts/P01/slide_06.jpg",
+        "https://rq6256.github.io/ig-assets/zekk/posts/P01/slide_07.jpg"
+      ],
+      "caption": "WordPressを最新にしているから大丈夫、と思っていませんか？\n10月21日に見つかった問題は、WordPressの更新では直りません。\n\n原因は、WordPressが動く土台の「PHP」。直すのはサーバー側です。\n国内の主なレンタルサーバー各社は緊急メンテナンスを行いましたが、対応はプランやPHPのバージョンによって違います。\n\n特にPHP 8.1以前を使っている古いサイトは、公式の修正がありません。\n\n自分のサイトがどうなっているか分からない方は、プロフィールのリンクから無料点検をどうぞ。URLとサーバー会社名だけで、パスワードは不要です。（11/30まで・週30社先着）\n\n#WordPress #ホームページ #セキュリティ対策 #中小企業 #PHP #レンタルサーバー #ホームページ制作"
+    }
+  ]
+}
