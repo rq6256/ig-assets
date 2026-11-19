@@ -60,6 +60,37 @@
         "https://rq6256.github.io/ig-assets/zekk/posts/P05/slide_08.jpg"
       ],
       "caption": "見覚えのない「管理者」、あなたのサイトに増えていませんか？\n乗っ取られたホームページには、よく出るサインがあります。自分で確かめられる5つをまとめました。\n\n① 管理画面の「ユーザー」→「ユーザー一覧」に知らない管理者がいる\n② 「プラグイン」→「インストール済みプラグイン」に入れた覚えのないものがある\n③ Googleで「site:自分のドメイン」と検索すると、作っていないページや海外の商品が出る\n④ スマホで検索結果から開いたときだけ、別のサイトに飛ぶ\n⑤ 検索結果やSearch Consoleの「セキュリティの問題」に警告が出ている\n\n知らない管理者は、制作会社が作業用に作ったものの場合もあります。まずは確認してみてください。\n当てはまるものがあったら、慌てて削除せず、制作会社かサーバー会社に相談するのがおすすめです。\n\n見方が分からないときは、プロフィールのリンクから無料点検もどうぞ（URLとサーバー会社名だけでOK）。\n\n#WordPress #ホームページ #セキュリティ対策 #中小企業 #サイト乗っ取り #ホームページ管理 #ホームページ制作"
+    },
+    {
+      "id": "P10",
+      "date": "2026-11-21",
+      "time": "12:10",
+      "image_urls": [
+        "https://rq6256.github.io/ig-assets/zekk/posts/P10/slide_01.jpg",
+        "https://rq6256.github.io/ig-assets/zekk/posts/P10/slide_02.jpg",
+        "https://rq6256.github.io/ig-assets/zekk/posts/P10/slide_03.jpg",
+        "https://rq6256.github.io/ig-assets/zekk/posts/P10/slide_04.jpg",
+        "https://rq6256.github.io/ig-assets/zekk/posts/P10/slide_05.jpg",
+        "https://rq6256.github.io/ig-assets/zekk/posts/P10/slide_06.jpg",
+        "https://rq6256.github.io/ig-assets/zekk/posts/P10/slide_07.jpg",
+        "https://rq6256.github.io/ig-assets/zekk/posts/P10/slide_08.jpg"
+      ],
+      "caption": "その管理者名、「admin」のままになっていませんか？\nWordPressのログイン画面はだれでも開けるので、名前とパスワードを機械で次々に試すログインが届きます。今日できる3つの設定をまとめました。\n\n① 推測されにくい管理者名にする\nユーザー名は後から変えられないため、新しい管理者を作ってから古い方を削除します。削除するときに「すべてのコンテンツを以下のユーザーのものにする」で新しい管理者を選べば、記事は残ります。\n\n② 2段階認証を入れる\nWordPress.orgで公開されている「Two Factor」プラグインを入れ、「ユーザー」→「プロフィール」で、スマホの認証アプリを登録します。予備のコードも保管しておくと安心です。\n\n③ ログインの試行回数を制限する\nエックスサーバーなら、サーバーパネルの「WordPressセキュリティ設定」に「ログイン試行回数制限」があります（初期設定はON）。ほかのサーバーでは、サーバー会社のマニュアルやプラグインで確認してください。\n\n制作会社に任せている場合は、この3つを聞いてみるだけでも十分な一歩です。設定を変える前には、バックアップを取っておきましょう。\n\n見方が分からないときは、プロフィールのリンクから無料点検もどうぞ（URLとサーバー会社名だけでOK）。\n\n#WordPress #ホームページ #セキュリティ対策 #中小企業 #ホームページ制作 #二段階認証 #エックスサーバー #ホームページ管理"
+    },
+    {
+      "id": "P03",
+      "date": "2026-11-25",
+      "time": "12:10",
+      "image_urls": [
+        "https://rq6256.github.io/ig-assets/zekk/posts/P03/slide_01.jpg",
+        "https://rq6256.github.io/ig-assets/zekk/posts/P03/slide_02.jpg",
+        "https://rq6256.github.io/ig-assets/zekk/posts/P03/slide_03.jpg",
+        "https://rq6256.github.io/ig-assets/zekk/posts/P03/slide_04.jpg",
+        "https://rq6256.github.io/ig-assets/zekk/posts/P03/slide_05.jpg",
+        "https://rq6256.github.io/ig-assets/zekk/posts/P03/slide_06.jpg",
+        "https://rq6256.github.io/ig-assets/zekk/posts/P03/slide_07.jpg"
+      ],
+      "caption": "「点検って、何をされるの？」とよく聞かれるので、届くレポートの中身をまとめました。\n先に、自分で見られる場所も紹介しています。\n\n確認するのは3つです。\n① 10月21日に公表されたPHP（WordPressが動く土台）の欠陥の修正が、サーバーに当たっているか\n② WordPress本体やプラグインが、古いまま残っていないか\n③ 検索結果やスマホでの表示に、見覚えのない異変がないか\n\nどれも外から確認できる範囲だけで、サイトの中に入ったりはしません。普段のパスワードもお預かりしません。最後に「何を、いつまでにやればいいか」を一言でお伝えし、問題がなければ「このままで大丈夫です」で終わりです。\n\n点検の前に、管理画面で自分でも見られます。\n・「ツール」→「サイトヘルス」→「情報」→「サーバー」で、PHPのバージョン\n・「ダッシュボード」→「更新」に、残っている更新がないか\n・「ユーザー」に、見覚えのない管理者がいないか\n\n自分で見るのが難しいときは、プロフィールのリンクから無料点検へ（URLとサーバー会社名だけ・1分ほど）。\n\n#WordPress #ホームページ #セキュリティ対策 #中小企業 #ホームページ制作 #無料点検 #PHP #ホームページ管理"
     }
   ]
 }
